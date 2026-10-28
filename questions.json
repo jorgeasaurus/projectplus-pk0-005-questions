@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "pk005-001",
+    "domain": 1,
+    "objective": "1.1",
+    "question": "A team will replace a legacy payroll system and disband after acceptance. What makes this work a project?",
+    "options": [
+      "It delivers a service repeatedly under a continuing operating budget",
+      "It coordinates all strategic investments in the organization",
+      "It maintains an existing service with no planned completion",
+      "It produces a unique result within a defined start and finish"
+    ],
+    "answer": 3,
+    "explanation": "Projects are temporary endeavors producing a unique result; ongoing payroll processing is operational work.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.1"
+    }
+  },
+  {
+    "id": "pk005-002",
+    "domain": 1,
+    "objective": "1.1",
+    "question": "Three related application migrations share benefits and dependencies. Which structure best coordinates them?",
+    "options": [
+      "An operations function",
+      "A single project work package",
+      "A program",
+      "A portfolio"
+    ],
+    "answer": 2,
+    "explanation": "A program coordinates related projects to achieve benefits unavailable from managing each independently.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.1"
+    }
+  },
+  {
+    "id": "pk005-003",
+    "domain": 1,
+    "objective": "1.1",
+    "question": "Security scanning is integrated into design, builds, and deployment. Which approach does this illustrate?",
+    "options": [
+      "A security audit performed only at closure",
+      "DevOps without integrated security practices",
+      "Sequential testing after release",
+      "DevSecOps"
+    ],
+    "answer": 3,
+    "explanation": "DevSecOps integrates security throughout development and operations.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.1"
+    }
+  },
+  {
+    "id": "pk005-004",
+    "domain": 1,
+    "objective": "1.1",
+    "question": "A support team visualizes work and stops pulling new items when its work-in-progress limit is reached. Which approach is it using?",
+    "options": [
+      "Critical path scheduling",
+      "Kanban",
+      "Waterfall with phase approvals",
+      "Scrum with fixed sprint commitments"
+    ],
+    "answer": 1,
+    "explanation": "Kanban visualizes flow and limits work in progress to expose bottlenecks.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.1"
+    }
+  },
+  {
+    "id": "pk005-005",
+    "domain": 1,
+    "objective": "1.1",
+    "question": "Developers pair at one workstation and write automated tests before code. Which approach emphasizes these practices?",
+    "options": [
+      "Scrum event facilitation",
+      "Predictive Waterfall delivery",
+      "Extreme Programming",
+      "PRINCE2 stage management"
+    ],
+    "answer": 2,
+    "explanation": "Extreme Programming emphasizes pair programming, test-driven development, and frequent feedback.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.1"
+    }
+  },
+  {
+    "id": "pk005-006",
+    "domain": 1,
+    "objective": "1.2",
+    "question": "A product team expects frequent customer feedback to change feature priorities. Which delivery approach is the best fit?",
+    "options": [
+      "A single release after all requirements are implemented",
+      "A sequential design-build-test plan with formal phase handoffs",
+      "Iterative Agile delivery",
+      "Predictive delivery with requirements baselined for the full release"
+    ],
+    "answer": 2,
+    "explanation": "Agile supports iterative delivery and adaptation as requirements evolve.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.2"
+    }
+  },
+  {
+    "id": "pk005-007",
+    "domain": 1,
+    "objective": "1.2",
+    "question": "A migration has stable requirements and formal approvals between sequential phases. Which approach best fits?",
+    "options": [
+      "Waterfall",
+      "Extreme Programming with frequent customer-driven releases",
+      "Kanban with continuous pull-based delivery",
+      "Scrum with backlog priorities revised each iteration"
+    ],
+    "answer": 0,
+    "explanation": "Waterfall uses a predictive sequence of phases and works well with stable requirements.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.2"
+    }
+  },
+  {
+    "id": "pk005-008",
+    "domain": 1,
+    "objective": "1.3",
+    "question": "A stakeholder requests an extra dashboard after scope approval. What should the project manager do first?",
+    "options": [
+      "Add the feature to the next work assignment before assessment",
+      "Record the request in the change control process",
+      "Adjust the schedule baseline before obtaining a change decision",
+      "Ask the sponsor to approve it before documenting its impacts"
+    ],
+    "answer": 1,
+    "explanation": "A requested change must be recorded and assessed before approval and implementation.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.3"
+    }
+  },
+  {
+    "id": "pk005-009",
+    "domain": 1,
+    "objective": "1.3",
+    "question": "A logged change could affect cost, schedule, and security. What should happen before an approval decision?",
+    "options": [
+      "Schedule deployment before the change board reviews it",
+      "Update the approved baseline to include the request",
+      "Assess its impacts",
+      "Ask the team to estimate implementation effort after approval"
+    ],
+    "answer": 2,
+    "explanation": "Impact analysis gives decision makers the information needed to approve, reject, or defer a change.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.3"
+    }
+  },
+  {
+    "id": "pk005-010",
+    "domain": 1,
+    "objective": "1.3",
+    "question": "The change control board approves a schedule-affecting request. What should the manager do before implementation?",
+    "options": [
+      "Implement the request and update affected plans at project closure",
+      "Communicate approval and update affected plans",
+      "Validate the deployed change before informing impacted teams",
+      "Record the request as completed as soon as the board approves it"
+    ],
+    "answer": 1,
+    "explanation": "Approved changes must be communicated and incorporated into the relevant project plans.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.3"
+    }
+  },
+  {
+    "id": "pk005-011",
+    "domain": 1,
+    "objective": "1.3",
+    "question": "An engineer adds an unrequested feature without review because it seems useful. What problem does this create?",
+    "options": [
+      "Progressive elaboration of approved scope",
+      "Approved scope change",
+      "Schedule compression",
+      "Scope creep"
+    ],
+    "answer": 3,
+    "explanation": "Uncontrolled additions expand scope without the required evaluation and approval.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.3"
+    }
+  },
+  {
+    "id": "pk005-012",
+    "domain": 1,
+    "objective": "1.4",
+    "question": "A supplier may miss a future delivery date. Where should this uncertainty initially be managed?",
+    "options": [
+      "Defect log",
+      "Risk register",
+      "Issue log",
+      "Change log"
+    ],
+    "answer": 1,
+    "explanation": "An uncertain future event is a risk; an event that has happened is an issue.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.4"
+    }
+  },
+  {
+    "id": "pk005-013",
+    "domain": 1,
+    "objective": "1.4",
+    "question": "A team removes a risky custom integration from the approved solution through change control. Which threat response is this?",
+    "options": [
+      "Avoid",
+      "Accept",
+      "Mitigate",
+      "Transfer"
+    ],
+    "answer": 0,
+    "explanation": "Avoidance removes the threat or its cause; mitigation only reduces probability or impact.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.4"
+    }
+  },
+  {
+    "id": "pk005-014",
+    "domain": 1,
+    "objective": "1.4",
+    "question": "A team adds a second network link to reduce outage impact. Which threat response is this?",
+    "options": [
+      "Mitigate",
+      "Avoid",
+      "Accept",
+      "Transfer"
+    ],
+    "answer": 0,
+    "explanation": "Redundancy reduces the impact or likelihood of the threat without eliminating all uncertainty.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.4"
+    }
+  },
+  {
+    "id": "pk005-015",
+    "domain": 1,
+    "objective": "1.4",
+    "question": "A project buys insurance for a specified loss exposure. Which response is illustrated?",
+    "options": [
+      "Mitigate",
+      "Avoid",
+      "Transfer",
+      "Accept"
+    ],
+    "answer": 2,
+    "explanation": "Insurance transfers specified financial consequences to another party; it does not eliminate the event.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.4"
+    }
+  },
+  {
+    "id": "pk005-016",
+    "domain": 1,
+    "objective": "1.4",
+    "question": "A partner can help capture a favorable market opportunity, and both parties will share its benefit. Which response fits?",
+    "options": [
+      "Accept and wait for the benefit to occur",
+      "Share",
+      "Enhance without involving a partner",
+      "Exploit by taking sole ownership"
+    ],
+    "answer": 1,
+    "explanation": "Sharing assigns opportunity ownership jointly to a party best able to help realize it.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.4"
+    }
+  },
+  {
+    "id": "pk005-017",
+    "domain": 1,
+    "objective": "1.4",
+    "question": "A team labels risks high, medium, or low using probability and impact. What kind of analysis is this?",
+    "options": [
+      "A decision tree using numerical outcome probabilities",
+      "Quantitative analysis using expected monetary values",
+      "Qualitative",
+      "Monte Carlo simulation"
+    ],
+    "answer": 2,
+    "explanation": "Qualitative analysis prioritizes risks with descriptive scales rather than numerical simulation.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.4"
+    }
+  },
+  {
+    "id": "pk005-018",
+    "domain": 1,
+    "objective": "1.5",
+    "question": "A server required for testing has now failed. What should the manager do?",
+    "options": [
+      "Request a baseline change before assigning an issue owner",
+      "Escalate to the sponsor without first assessing severity or ownership",
+      "Log an issue, assign an owner, and plan resolution",
+      "Leave it in the risk register until its probability is reassessed"
+    ],
+    "answer": 2,
+    "explanation": "The event has occurred and requires issue tracking, ownership, prioritization, and resolution.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.5"
+    }
+  },
+  {
+    "id": "pk005-019",
+    "domain": 1,
+    "objective": "1.5",
+    "question": "A workaround restores testing, but the team does not know why failures recur. What activity addresses recurrence?",
+    "options": [
+      "Updating the issue status to resolved after each workaround",
+      "Root cause analysis",
+      "Escalating the symptom without investigating its cause",
+      "Adding a schedule buffer for recurring failures"
+    ],
+    "answer": 1,
+    "explanation": "Root cause analysis identifies underlying causes so corrective action can prevent recurrence.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.5"
+    }
+  },
+  {
+    "id": "pk005-020",
+    "domain": 1,
+    "objective": "1.6",
+    "question": "System testing cannot begin until installation finishes. Which dependency applies?",
+    "options": [
+      "Finish-to-finish",
+      "Start-to-finish",
+      "Start-to-start",
+      "Finish-to-start"
+    ],
+    "answer": 3,
+    "explanation": "A finish-to-start relationship makes the successor start depend on the predecessor finish.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.6"
+    }
+  },
+  {
+    "id": "pk005-021",
+    "domain": 1,
+    "objective": "1.6",
+    "question": "A new service must start before the old service can stop. Which relationship describes the old service finish?",
+    "options": [
+      "Start-to-finish",
+      "Finish-to-finish",
+      "Finish-to-start",
+      "Start-to-start"
+    ],
+    "answer": 0,
+    "explanation": "Start-to-finish makes a successor finish dependent on a predecessor start, as in a service handover.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.6"
+    }
+  },
+  {
+    "id": "pk005-022",
+    "domain": 1,
+    "objective": "1.6",
+    "question": "Two complete parallel paths from project start to finish last 12 and 15 days. They have no resource constraints or shared activities. What is the earliest project completion?",
+    "options": [
+      "15 days",
+      "27 days",
+      "3 days",
+      "12 days"
+    ],
+    "answer": 0,
+    "explanation": "The longest dependent path determines the minimum project duration.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.6"
+    }
+  },
+  {
+    "id": "pk005-023",
+    "domain": 1,
+    "objective": "1.6",
+    "question": "A noncritical activity has three days of total float and slips two days. Assuming no other changes, what happens?",
+    "options": [
+      "Project completion slips by two days",
+      "Project completion remains unchanged",
+      "The activity gains two additional days of total float",
+      "The activity becomes critical with zero total float"
+    ],
+    "answer": 1,
+    "explanation": "A delay within available total float does not delay project completion.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.6"
+    }
+  },
+  {
+    "id": "pk005-024",
+    "domain": 1,
+    "objective": "1.6",
+    "question": "An external regulator must approve a deployment before release. How should this dependency be classified?",
+    "options": [
+      "Internal because the project manager tracks it",
+      "A resource constraint rather than an activity dependency",
+      "Discretionary because approvals can be scheduled",
+      "External"
+    ],
+    "answer": 3,
+    "explanation": "The regulator is outside the project team, making the approval an external dependency.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.6"
+    }
+  },
+  {
+    "id": "pk005-025",
+    "domain": 1,
+    "objective": "1.6",
+    "question": "A team can design two modules in parallel but chooses to do one first based on experience. What dependency is this?",
+    "options": [
+      "Mandatory because every task must be sequenced",
+      "Discretionary",
+      "A contractual dependency imposed by a supplier",
+      "External because experience comes from past projects"
+    ],
+    "answer": 1,
+    "explanation": "A preferred sequence based on experience is discretionary rather than physically required.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.6"
+    }
+  },
+  {
+    "id": "pk005-026",
+    "domain": 1,
+    "objective": "1.7",
+    "question": "Earned value is $40,000 and actual cost is $45,000. What is cost variance?",
+    "options": [
+      "$5,000",
+      "-$5,000",
+      "-$45,000",
+      "$85,000"
+    ],
+    "answer": 1,
+    "explanation": "Cost variance equals earned value minus actual cost: 40,000 - 45,000 = -5,000, indicating over budget.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.7"
+    }
+  },
+  {
+    "id": "pk005-027",
+    "domain": 1,
+    "objective": "1.7",
+    "question": "Earned value is $60,000 and planned value is $75,000. What is schedule variance?",
+    "options": [
+      "$60,000",
+      "$135,000",
+      "-$15,000",
+      "$15,000"
+    ],
+    "answer": 2,
+    "explanation": "Schedule variance equals earned value minus planned value: 60,000 - 75,000 = -15,000, indicating behind schedule.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.7"
+    }
+  },
+  {
+    "id": "pk005-028",
+    "domain": 1,
+    "objective": "1.7",
+    "question": "Users evaluate whether a delivered workflow meets their business needs. Which testing activity is this?",
+    "options": [
+      "System integration testing",
+      "Regression testing",
+      "User acceptance testing",
+      "Verification through a requirements document review"
+    ],
+    "answer": 2,
+    "explanation": "UAT validates the solution against user needs and acceptance criteria.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.7"
+    }
+  },
+  {
+    "id": "pk005-029",
+    "domain": 1,
+    "objective": "1.7",
+    "question": "A new patch is installed. Which test best checks that previously working features still work?",
+    "options": [
+      "Smoke testing of only the main startup path",
+      "Regression testing",
+      "Stress testing beyond expected peak load",
+      "User acceptance testing focused on new requirements"
+    ],
+    "answer": 1,
+    "explanation": "Regression testing checks whether a change has broken existing behavior.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.7"
+    }
+  },
+  {
+    "id": "pk005-030",
+    "domain": 1,
+    "objective": "1.7",
+    "question": "A team discusses how to improve collaboration after a sprint. Which event fits?",
+    "options": [
+      "Sprint retrospective",
+      "Daily Scrum",
+      "Sprint review",
+      "Sprint planning"
+    ],
+    "answer": 0,
+    "explanation": "A retrospective examines how the team worked; a review inspects the product increment with stakeholders.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.7"
+    }
+  },
+  {
+    "id": "pk005-031",
+    "domain": 1,
+    "objective": "1.8",
+    "question": "Team members work across twelve time zones and need routine status updates. Which method is most suitable?",
+    "options": [
+      "An asynchronous written update in the agreed channel",
+      "A daily live status meeting during one region’s working hours",
+      "A separate live briefing arranged for every stakeholder",
+      "A weekly verbal report relayed through regional managers"
+    ],
+    "answer": 0,
+    "explanation": "Asynchronous written communication lets distributed stakeholders access a consistent update at suitable times.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.8"
+    }
+  },
+  {
+    "id": "pk005-032",
+    "domain": 1,
+    "objective": "1.8",
+    "question": "A sensitive budget report must reach only approved stakeholders. What should guide distribution?",
+    "options": [
+      "The report author’s preferred channel without consulting the plan",
+      "The stakeholder’s influence ranking without checking confidentiality",
+      "The communication plan and access restrictions",
+      "The standard project distribution list regardless of access rights"
+    ],
+    "answer": 2,
+    "explanation": "Communication must meet audience needs while preserving the security and integrity of records.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.8"
+    }
+  },
+  {
+    "id": "pk005-033",
+    "domain": 1,
+    "objective": "1.9",
+    "question": "A workshop repeatedly runs beyond its allotted decision time. What technique directly addresses this?",
+    "options": [
+      "Timeboxing agenda items",
+      "Deferring all decisions until every possible concern is discussed",
+      "Extending the meeting whenever discussion continues",
+      "Adding more topics to the agenda for the same meeting"
+    ],
+    "answer": 0,
+    "explanation": "Timeboxing sets a defined time limit to keep discussion focused and protect the agenda.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.9"
+    }
+  },
+  {
+    "id": "pk005-034",
+    "domain": 1,
+    "objective": "1.9",
+    "question": "A meeting ends with tasks but nobody knows who will do them. What should the minutes include?",
+    "options": [
+      "A summary of discussion topics without task assignments",
+      "A record of decisions without follow-up responsibilities",
+      "A participant list with each attendee’s department",
+      "Action owners and due dates"
+    ],
+    "answer": 3,
+    "explanation": "Action items need named owners and deadlines so follow-up can establish accountability.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.9"
+    }
+  },
+  {
+    "id": "pk005-035",
+    "domain": 1,
+    "objective": "1.10",
+    "question": "A specialist reports to both a functional manager and a project manager. What structure is this?",
+    "options": [
+      "Projectized",
+      "A purely operational line structure",
+      "Matrix",
+      "Functional"
+    ],
+    "answer": 2,
+    "explanation": "Matrix organizations combine functional and project reporting relationships.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.10"
+    }
+  },
+  {
+    "id": "pk005-036",
+    "domain": 1,
+    "objective": "1.10",
+    "question": "A team argues over roles shortly after forming. Which team development stage is most likely?",
+    "options": [
+      "Performing",
+      "Norming",
+      "Forming",
+      "Storming"
+    ],
+    "answer": 3,
+    "explanation": "Storming commonly involves conflict over roles, approaches, and expectations.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.10"
+    }
+  },
+  {
+    "id": "pk005-037",
+    "domain": 1,
+    "objective": "1.10",
+    "question": "Who is accountable for ordering the product backlog to maximize product value?",
+    "options": [
+      "Scrum master",
+      "Project sponsor directly ordering every backlog item",
+      "Development team acting without the product owner",
+      "Product owner"
+    ],
+    "answer": 3,
+    "explanation": "The product owner is accountable for product value and effective product backlog management.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.10"
+    }
+  },
+  {
+    "id": "pk005-038",
+    "domain": 1,
+    "objective": "1.11",
+    "question": "A buyer wants comparable prices for clearly specified standard laptops. Which request best fits?",
+    "options": [
+      "Vendor statement of work",
+      "Request for proposal for an open-ended solution",
+      "Request for quotation",
+      "Request for information"
+    ],
+    "answer": 2,
+    "explanation": "An RFQ solicits pricing for clearly defined goods or services.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.11"
+    }
+  },
+  {
+    "id": "pk005-039",
+    "domain": 1,
+    "objective": "1.11",
+    "question": "A buyer is exploring which vendors can provide an unfamiliar service before defining a procurement. Which document fits?",
+    "options": [
+      "Request for information",
+      "Request for bid against a finalized specification",
+      "Request for quotation",
+      "Purchase order"
+    ],
+    "answer": 0,
+    "explanation": "An RFI gathers information about vendor capabilities and available solutions.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "1.11"
+    }
+  },
+  {
+    "id": "pk005-040",
+    "domain": 1,
+    "objective": "1.11",
+    "question": "Scope is well defined and the buyer wants the vendor to bear cost-overrun risk within that scope. Which contract fits?",
+    "options": [
+      "Cost plus percentage of cost",
+      "Cost plus fixed fee",
+      "Time and materials",
+      "Fixed price"
+    ],
+    "answer": 3,
+    "explanation": "A fixed-price agreement places much of the cost risk for agreed scope on the seller.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "1.11"
+    }
+  },
+  {
+    "id": "pk005-041",
+    "domain": 2,
+    "objective": "2.1",
+    "question": "Before funding a project, executives want to understand its strategic benefit and expected costs. Which artifact should they review?",
+    "options": [
+      "Detailed project schedule",
+      "Requirements traceability matrix",
+      "Business case",
+      "Project charter"
+    ],
+    "answer": 2,
+    "explanation": "The business case explains why an investment is justified and compares benefits, costs, and alternatives.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.1"
+    }
+  },
+  {
+    "id": "pk005-042",
+    "domain": 2,
+    "objective": "2.1",
+    "question": "A solution costs $80,000 and produces total benefits of $100,000 over the stated evaluation period. Using net benefit divided by cost, what is ROI?",
+    "options": [
+      "25%",
+      "125%",
+      "80%",
+      "20%"
+    ],
+    "answer": 0,
+    "explanation": "ROI = (100,000 - 80,000) / 80,000 × 100 = 25%.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.1"
+    }
+  },
+  {
+    "id": "pk005-043",
+    "domain": 2,
+    "objective": "2.1",
+    "question": "A team compares manual onboarding today with a target automated workflow. What analysis is this?",
+    "options": [
+      "Vendor cost-benefit comparison",
+      "Current state versus future state",
+      "Post-implementation benefits review",
+      "Schedule variance analysis"
+    ],
+    "answer": 1,
+    "explanation": "Comparing the current and desired future states identifies gaps the project must address.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.1"
+    }
+  },
+  {
+    "id": "pk005-044",
+    "domain": 2,
+    "objective": "2.1",
+    "question": "An organization already has a contract covering the proposed upgrade. What should the manager review during discovery?",
+    "options": [
+      "Use the project team’s preferred scope without comparing contract terms",
+      "The existing statement of work and contract constraints",
+      "Assume a previous contract has no effect on the proposed upgrade",
+      "Create a new vendor agreement before checking existing obligations"
+    ],
+    "answer": 1,
+    "explanation": "Existing contractual commitments can define scope, terms, and constraints before a project is initiated.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.1"
+    }
+  },
+  {
+    "id": "pk005-045",
+    "domain": 2,
+    "objective": "2.1",
+    "question": "Finance categorizes a recurring monthly hosting subscription as an expense of running the service. Which category best matches?",
+    "options": [
+      "Contingency reserve",
+      "A one-time capital asset acquisition",
+      "Capital expenditure",
+      "Operating expense"
+    ],
+    "answer": 3,
+    "explanation": "Recurring service expenses are generally operating expenses; classification follows the organization’s accounting policy.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.1"
+    }
+  },
+  {
+    "id": "pk005-046",
+    "domain": 2,
+    "objective": "2.1",
+    "question": "An organization purchases equipment as a long-lived asset under its accounting policy. Which category applies?",
+    "options": [
+      "A recurring service subscription",
+      "Capital expense",
+      "Contingency reserve",
+      "Operating expense"
+    ],
+    "answer": 1,
+    "explanation": "A purchase capitalized as a long-lived asset is a capital expenditure.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.1"
+    }
+  },
+  {
+    "id": "pk005-047",
+    "domain": 2,
+    "objective": "2.1",
+    "question": "Procurement provides a list of suppliers that already satisfy company qualification checks. What does the list contain?",
+    "options": [
+      "The final contract award decision",
+      "The lowest-price bids regardless of qualification",
+      "Vendors with fully accepted project deliverables",
+      "Prequalified vendors"
+    ],
+    "answer": 3,
+    "explanation": "Prequalification establishes that vendors meet specified eligibility criteria before selection.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.1"
+    }
+  },
+  {
+    "id": "pk005-048",
+    "domain": 2,
+    "objective": "2.2",
+    "question": "A sponsor needs to formally authorize a project and identify its high-level objectives. Which document fits?",
+    "options": [
+      "Project charter",
+      "Business case",
+      "Detailed scope statement",
+      "Statement of work"
+    ],
+    "answer": 0,
+    "explanation": "The charter formally authorizes the project and records its high-level objectives and preliminary scope.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.2"
+    }
+  },
+  {
+    "id": "pk005-049",
+    "domain": 2,
+    "objective": "2.2",
+    "question": "An approved charter says only “improve service.” What addition best makes success measurable?",
+    "options": [
+      "A list of all proposed service features without target outcomes",
+      "A defined target for response time by a specified date",
+      "A general goal of providing excellent customer service",
+      "A statement that users should be satisfied after deployment"
+    ],
+    "answer": 1,
+    "explanation": "Measurable success criteria provide a basis for evaluating whether project objectives are achieved.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.2"
+    }
+  },
+  {
+    "id": "pk005-050",
+    "domain": 2,
+    "objective": "2.2",
+    "question": "A new manager discovers that the support team will operate the solution but was never consulted. What should be updated?",
+    "options": [
+      "Only the approved cost baseline",
+      "Stakeholder identification and assessment",
+      "Only the project’s procurement criteria",
+      "Only the communication frequency for the sponsor"
+    ],
+    "answer": 1,
+    "explanation": "Stakeholder assessment must include people affected by or able to influence project outcomes.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.2"
+    }
+  },
+  {
+    "id": "pk005-051",
+    "domain": 2,
+    "objective": "2.2",
+    "question": "Two departments both believe the other has final approval authority for a deliverable. Which tool best clarifies this?",
+    "options": [
+      "Project organizational chart",
+      "RACI matrix",
+      "Requirements traceability matrix",
+      "Stakeholder influence-interest grid"
+    ],
+    "answer": 1,
+    "explanation": "A RACI matrix makes responsibility, accountability, consultation, and information needs explicit.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.2"
+    }
+  },
+  {
+    "id": "pk005-052",
+    "domain": 2,
+    "objective": "2.2",
+    "question": "In a RACI matrix, who has ultimate ownership of a deliverable’s result?",
+    "options": [
+      "Responsible",
+      "Consulted",
+      "Informed",
+      "Accountable"
+    ],
+    "answer": 3,
+    "explanation": "The accountable role owns the result; responsible roles perform the work.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.2"
+    }
+  },
+  {
+    "id": "pk005-053",
+    "domain": 2,
+    "objective": "2.2",
+    "question": "Project records must remain retrievable for audits. Which initiation activity establishes storage, retention, and access rules?",
+    "options": [
+      "Create a responsibility assignment matrix",
+      "Develop a records management plan",
+      "Establish the project schedule baseline",
+      "Develop the communication plan’s meeting cadence"
+    ],
+    "answer": 1,
+    "explanation": "A records management plan defines how records are stored, controlled, retained, and retrieved.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.2"
+    }
+  },
+  {
+    "id": "pk005-054",
+    "domain": 2,
+    "objective": "2.2",
+    "question": "A new vendor needs read-only access to design documents. What should the manager establish?",
+    "options": [
+      "Give the vendor the same permissions as the internal core team",
+      "Role-appropriate access requirements",
+      "Use a shared project account so access is simpler to administer",
+      "Grant temporary write access because it expires at project completion"
+    ],
+    "answer": 1,
+    "explanation": "Access requirements should give users the permissions needed for their assigned work.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.2"
+    }
+  },
+  {
+    "id": "pk005-055",
+    "domain": 2,
+    "objective": "2.2",
+    "question": "A kickoff meeting is scheduled after authorization. Its main purpose should be to do what?",
+    "options": [
+      "Replace the approved charter with informal team agreements",
+      "Align stakeholders on objectives, roles, and initial expectations",
+      "Approve detailed test results before development begins",
+      "Obtain final acceptance of all project deliverables"
+    ],
+    "answer": 1,
+    "explanation": "Kickoff establishes a shared understanding of purpose, roles, approach, and next steps.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.2"
+    }
+  },
+  {
+    "id": "pk005-056",
+    "domain": 2,
+    "objective": "2.3",
+    "question": "A manager decomposes the approved deliverables into manageable work packages. What is being created?",
+    "options": [
+      "Requirements traceability matrix",
+      "Project schedule",
+      "Work breakdown structure",
+      "Responsibility assignment matrix"
+    ],
+    "answer": 2,
+    "explanation": "A WBS decomposes the project scope into manageable deliverable-oriented components.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.3"
+    }
+  },
+  {
+    "id": "pk005-057",
+    "domain": 2,
+    "objective": "2.3",
+    "question": "A team has the required headcount but nobody can configure the new platform. What should planning identify?",
+    "options": [
+      "An assumption that existing staff can learn during acceptance testing",
+      "A headcount shortage requiring identical additional roles",
+      "A procurement issue that can wait until go-live",
+      "A skills gap and a plan to close it"
+    ],
+    "answer": 3,
+    "explanation": "Resource assessment includes capability as well as availability, allowing training or procurement to address gaps.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.3"
+    }
+  },
+  {
+    "id": "pk005-058",
+    "domain": 2,
+    "objective": "2.3",
+    "question": "Executives require monthly summaries while engineers need daily coordination. Which plan should define these needs?",
+    "options": [
+      "Communication plan",
+      "Procurement management plan",
+      "Quality management plan",
+      "Risk response plan"
+    ],
+    "answer": 0,
+    "explanation": "The communication plan defines audiences, content, cadence, channels, and responsibilities.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.3"
+    }
+  },
+  {
+    "id": "pk005-059",
+    "domain": 2,
+    "objective": "2.3",
+    "question": "A customer expects migration of archived records, but the team believes they are excluded. Which planning artifact should resolve this?",
+    "options": [
+      "Detailed scope statement with exclusions and acceptance criteria",
+      "Risk register’s probability ratings",
+      "Project charter’s high-level purpose alone",
+      "Resource calendar"
+    ],
+    "answer": 0,
+    "explanation": "A detailed scope statement establishes deliverables, boundaries, assumptions, and acceptance expectations.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.3"
+    }
+  },
+  {
+    "id": "pk005-060",
+    "domain": 2,
+    "objective": "2.3",
+    "question": "A go-live plan includes user training, support contacts, and transfer of operational responsibility. What plan is this?",
+    "options": [
+      "Procurement plan",
+      "Issue escalation plan",
+      "Quality assurance plan",
+      "Transition plan"
+    ],
+    "answer": 3,
+    "explanation": "Transition planning prepares the business and operations team to use and support the delivered solution.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.3"
+    }
+  },
+  {
+    "id": "pk005-061",
+    "domain": 2,
+    "objective": "2.3",
+    "question": "A team agrees on the approved schedule and budget that future performance will be compared against. What is established?",
+    "options": [
+      "Forecasts revised whenever actual performance changes",
+      "Actual performance measurements",
+      "Contingency responses",
+      "Baselines"
+    ],
+    "answer": 3,
+    "explanation": "Approved baselines provide reference points for measuring performance and controlling changes.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.3"
+    }
+  },
+  {
+    "id": "pk005-062",
+    "domain": 2,
+    "objective": "2.3",
+    "question": "A startup wants the smallest usable release that delivers the central customer benefit and enables feedback. What should it define?",
+    "options": [
+      "Minimum viable product",
+      "A technical prototype that users cannot meaningfully use",
+      "A complete release containing every planned enhancement",
+      "A detailed requirements document without a usable release"
+    ],
+    "answer": 0,
+    "explanation": "An MVP provides enough core value to test assumptions and collect feedback without building the full future scope.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.3"
+    }
+  },
+  {
+    "id": "pk005-063",
+    "domain": 2,
+    "objective": "2.3",
+    "question": "The quality plan sets review criteria before development starts. What is its main benefit?",
+    "options": [
+      "Defining business justification rather than quality expectations",
+      "Measuring individual utilization instead of deliverable quality",
+      "Inspecting only the final product to find all defects at closure",
+      "Aligning work with expected standards and acceptance requirements"
+    ],
+    "answer": 3,
+    "explanation": "Quality planning defines standards, checks, and responsibilities before deliverables are produced.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.3"
+    }
+  },
+  {
+    "id": "pk005-064",
+    "domain": 2,
+    "objective": "2.3",
+    "question": "A schedule assumes a specialist is available full time, but resource planning shows only half-time availability. What should happen?",
+    "options": [
+      "Keep the full-time estimate and treat resource contention only as a risk",
+      "Adjust assignments and schedule to reflect availability",
+      "Reduce the specialist’s assigned hours without reviewing dependent dates",
+      "Commit the existing dates and request overtime after work starts"
+    ],
+    "answer": 1,
+    "explanation": "The plan must account for actual capacity; resource availability can change task duration and sequencing.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.3"
+    }
+  },
+  {
+    "id": "pk005-065",
+    "domain": 2,
+    "objective": "2.4",
+    "question": "Employees resist a new workflow despite successful technical testing. What should execution emphasize?",
+    "options": [
+      "Additional technical performance testing without an adoption plan",
+      "Training, communication, and reinforcement of adoption",
+      "A scope baseline update without addressing affected users",
+      "Earlier contract closure before users receive training"
+    ],
+    "answer": 1,
+    "explanation": "Organizational change management addresses people, readiness, training, communication, and sustained adoption.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.4"
+    }
+  },
+  {
+    "id": "pk005-066",
+    "domain": 2,
+    "objective": "2.4",
+    "question": "A vendor repeatedly delivers below agreed quality. What should the manager use to address performance?",
+    "options": [
+      "The vendor’s proposed future capabilities rather than agreed deliverables",
+      "Informal progress assurances without acceptance evidence",
+      "Contract requirements and documented deliverable reviews",
+      "The lowest bid submitted during the initial selection"
+    ],
+    "answer": 2,
+    "explanation": "Vendor management compares delivery with agreed requirements and enforces the established engagement terms.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.4"
+    }
+  },
+  {
+    "id": "pk005-067",
+    "domain": 2,
+    "objective": "2.4",
+    "question": "A sponsor needs an unscheduled explanation of a new delivery risk. What type of reporting is requested?",
+    "options": [
+      "Routine scheduled status reporting",
+      "Final project closeout reporting",
+      "Ad hoc reporting",
+      "A retrospective on a completed sprint"
+    ],
+    "answer": 2,
+    "explanation": "Ad hoc reporting responds to a specific information need outside the routine reporting cadence.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.4"
+    }
+  },
+  {
+    "id": "pk005-068",
+    "domain": 2,
+    "objective": "2.4",
+    "question": "Two teams work together to create a solution that satisfies both of their core needs. Which conflict approach is this?",
+    "options": [
+      "Collaboration",
+      "Compromise",
+      "Forcing",
+      "Smoothing"
+    ],
+    "answer": 0,
+    "explanation": "Collaboration explores the underlying interests and seeks a solution that meets both parties’ needs.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.4"
+    }
+  },
+  {
+    "id": "pk005-069",
+    "domain": 2,
+    "objective": "2.4",
+    "question": "A manager uses authority to impose a decision during a conflict. Which approach is this?",
+    "options": [
+      "Compromise",
+      "Forcing",
+      "Collaboration",
+      "Smoothing"
+    ],
+    "answer": 1,
+    "explanation": "Forcing resolves the immediate decision by exercising authority rather than seeking a shared solution.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.4"
+    }
+  },
+  {
+    "id": "pk005-070",
+    "domain": 2,
+    "objective": "2.4",
+    "question": "Two teams each give up part of their preferred solution to reach agreement. Which approach is this?",
+    "options": [
+      "Forcing a decision using authority",
+      "Smoothing that emphasizes agreement over differences",
+      "Collaboration that fully satisfies both sides",
+      "Compromise"
+    ],
+    "answer": 3,
+    "explanation": "Compromise reaches a middle ground through concessions by both parties.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.4"
+    }
+  },
+  {
+    "id": "pk005-071",
+    "domain": 2,
+    "objective": "2.4",
+    "question": "A phase is complete, but the next phase requires sponsor authorization. What activity should occur?",
+    "options": [
+      "Contract closeout before the next project phase",
+      "A daily status meeting without an authorization decision",
+      "A sprint retrospective focused on team process",
+      "Phase gate review"
+    ],
+    "answer": 3,
+    "explanation": "A phase gate assesses progress, readiness, and continued justification before a decision to proceed.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.4"
+    }
+  },
+  {
+    "id": "pk005-072",
+    "domain": 2,
+    "objective": "2.5",
+    "question": "The team has delivered all features. What establishes formal customer agreement that acceptance criteria are met?",
+    "options": [
+      "The project team’s internal completion checklist alone",
+      "A release announcement from the implementation team",
+      "Documented sign-off from the authorized stakeholder",
+      "The last sprint’s velocity report"
+    ],
+    "answer": 2,
+    "explanation": "Formal acceptance records the authorized stakeholder’s approval against agreed criteria.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.5"
+    }
+  },
+  {
+    "id": "pk005-073",
+    "domain": 2,
+    "objective": "2.5",
+    "question": "A contractor has completed all work and no longer needs system access. What is an essential closure action?",
+    "options": [
+      "Retain access until the next annual access review",
+      "Revoke unneeded access",
+      "Transfer the contractor’s credentials to the support team",
+      "Keep the account active in case an unrelated project needs it"
+    ],
+    "answer": 1,
+    "explanation": "Closing activities include removing access that is no longer required.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.5"
+    }
+  },
+  {
+    "id": "pk005-074",
+    "domain": 2,
+    "objective": "2.5",
+    "question": "Actual invoices do not match the project ledger at closure. What activity addresses the discrepancy?",
+    "options": [
+      "Change request prioritization",
+      "Earned value forecasting",
+      "Resource leveling",
+      "Budget reconciliation"
+    ],
+    "answer": 3,
+    "explanation": "Budget reconciliation compares recorded costs, invoices, payments, and budget figures to resolve discrepancies.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.5"
+    }
+  },
+  {
+    "id": "pk005-075",
+    "domain": 2,
+    "objective": "2.5",
+    "question": "A manager wants future projects to learn from a migration’s successes and failures. What should be retained?",
+    "options": [
+      "Only the final accepted product configuration",
+      "Only the final invoice and payment confirmation",
+      "Only the original scope baseline without actual outcomes",
+      "Lessons learned and the closeout report"
+    ],
+    "answer": 3,
+    "explanation": "Lessons learned and closeout records preserve evidence and recommendations for future projects.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "2.5"
+    }
+  },
+  {
+    "id": "pk005-076",
+    "domain": 2,
+    "objective": "2.5",
+    "question": "Before closing a supplier agreement, what should the manager verify?",
+    "options": [
+      "Contract obligations, accepted deliverables, and outstanding payments",
+      "That the project schedule is complete, regardless of contractual obligations",
+      "That the vendor has been paid, regardless of deliverable acceptance",
+      "That the team no longer uses the vendor, regardless of open claims"
+    ],
+    "answer": 0,
+    "explanation": "Contract closure confirms agreed obligations have been fulfilled and financial matters have been addressed.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "2.5"
+    }
+  },
+  {
+    "id": "pk005-077",
+    "domain": 3,
+    "objective": "3.1",
+    "question": "A manager needs to show task dates, durations, and overlaps on a timeline. Which tool fits?",
+    "options": [
+      "Milestone chart",
+      "Project network diagram",
+      "Gantt chart",
+      "Resource histogram"
+    ],
+    "answer": 2,
+    "explanation": "A Gantt chart displays scheduled activities as bars across time.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "3.1"
+    }
+  },
+  {
+    "id": "pk005-078",
+    "domain": 3,
+    "objective": "3.1",
+    "question": "A team needs to see predecessor relationships and identify the longest dependent path. Which tool fits?",
+    "options": [
+      "Milestone chart",
+      "Project network diagram",
+      "Gantt chart without dependency links",
+      "Resource histogram"
+    ],
+    "answer": 1,
+    "explanation": "Network diagrams expose activity dependencies and support critical path analysis.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.1"
+    }
+  },
+  {
+    "id": "pk005-079",
+    "domain": 3,
+    "objective": "3.1",
+    "question": "Executives only need major delivery checkpoints and target dates. Which chart best fits?",
+    "options": [
+      "Detailed activity network diagram",
+      "Milestone chart",
+      "Resource utilization histogram",
+      "Cost control chart"
+    ],
+    "answer": 1,
+    "explanation": "Milestone charts summarize significant events without all detailed activities.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "3.1"
+    }
+  },
+  {
+    "id": "pk005-080",
+    "domain": 3,
+    "objective": "3.1",
+    "question": "Testing finds a reproducible application bug. Which record is most appropriate for its detailed tracking?",
+    "options": [
+      "Requirements traceability matrix",
+      "Risk register",
+      "Change log",
+      "Defect log"
+    ],
+    "answer": 3,
+    "explanation": "A defect log tracks software or deliverable defects, including severity and resolution status.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.1"
+    }
+  },
+  {
+    "id": "pk005-081",
+    "domain": 3,
+    "objective": "3.1",
+    "question": "A manager needs the owner, probability, impact, and response for each identified risk. Which artifact fits?",
+    "options": [
+      "Stakeholder register",
+      "Issue log",
+      "Change log",
+      "Risk register"
+    ],
+    "answer": 3,
+    "explanation": "A risk register stores detailed risk information and response responsibilities.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "3.1"
+    }
+  },
+  {
+    "id": "pk005-082",
+    "domain": 3,
+    "objective": "3.1",
+    "question": "A stakeholder wants to know whether requested feature changes were approved or rejected. Which record should be consulted?",
+    "options": [
+      "Meeting action register",
+      "Change log",
+      "Issue log",
+      "Risk register"
+    ],
+    "answer": 1,
+    "explanation": "The change log records requests, status, decisions, and related change information.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.1"
+    }
+  },
+  {
+    "id": "pk005-083",
+    "domain": 3,
+    "objective": "3.1",
+    "question": "An auditor asks which tests prove each requirement was delivered. Which artifact best connects them?",
+    "options": [
+      "Work breakdown structure",
+      "Requirements traceability matrix",
+      "Defect log alone",
+      "Responsibility assignment matrix"
+    ],
+    "answer": 1,
+    "explanation": "An RTM links requirements to their implementation and verification evidence.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "3.1"
+    }
+  },
+  {
+    "id": "pk005-084",
+    "domain": 3,
+    "objective": "3.1",
+    "question": "Several people edit a deployment plan and must recover prior approved versions. Which tool is most useful?",
+    "options": [
+      "A shared folder that overwrites the current file on each save",
+      "An access log that records views but not document revisions",
+      "Version control",
+      "An email thread used as the only copy of the plan"
+    ],
+    "answer": 2,
+    "explanation": "Version control preserves revision history and supports identification and recovery of approved versions.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.1"
+    }
+  },
+  {
+    "id": "pk005-085",
+    "domain": 3,
+    "objective": "3.1",
+    "question": "A manager needs an at-a-glance view of current schedule, cost, and risk indicators. Which tool fits?",
+    "options": [
+      "An individual resource timesheet",
+      "A detailed project schedule without cost or risk indicators",
+      "Project dashboard",
+      "An issue log without schedule or cost summaries"
+    ],
+    "answer": 2,
+    "explanation": "A dashboard brings selected key status indicators together for quick assessment.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "3.1"
+    }
+  },
+  {
+    "id": "pk005-086",
+    "domain": 3,
+    "objective": "3.1",
+    "question": "A consultant bills hourly and must attribute effort to work packages. Which tool is most directly useful?",
+    "options": [
+      "A milestone tracking tool",
+      "Time-tracking tool",
+      "An issue tracking system without effort entries",
+      "A resource availability calendar"
+    ],
+    "answer": 1,
+    "explanation": "Time tracking records effort against activities for billing and resource analysis.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.1"
+    }
+  },
+  {
+    "id": "pk005-087",
+    "domain": 3,
+    "objective": "3.2",
+    "question": "Four writers must edit the same document while seeing one another’s updates immediately. Which capability is needed?",
+    "options": [
+      "A sequential email-based review process",
+      "Real-time collaborative editing",
+      "A read-only published document library",
+      "A document repository that locks the file to one editor at a time"
+    ],
+    "answer": 1,
+    "explanation": "Real-time editing supports concurrent contributions in a shared document.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.2"
+    }
+  },
+  {
+    "id": "pk005-088",
+    "domain": 3,
+    "objective": "3.2",
+    "question": "A distributed workshop needs participants to draw and group ideas together. Which tool best fits?",
+    "options": [
+      "A ticket queue for incident assignment",
+      "Collaborative whiteboard",
+      "A scheduling application focused on dependencies",
+      "A shared spreadsheet designed for numeric cost analysis"
+    ],
+    "answer": 1,
+    "explanation": "A shared whiteboard supports visual collaboration and idea organization during a workshop.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.2"
+    }
+  },
+  {
+    "id": "pk005-089",
+    "domain": 3,
+    "objective": "3.2",
+    "question": "Users submit problems that need unique IDs, assignment, status, and escalation. Which system is best suited?",
+    "options": [
+      "Ticketing or case management",
+      "A shared document with unstructured comments",
+      "A project calendar for planned milestones",
+      "An instant-message channel without case identifiers"
+    ],
+    "answer": 0,
+    "explanation": "Ticketing systems support structured intake, ownership, tracking, and escalation.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.2"
+    }
+  },
+  {
+    "id": "pk005-090",
+    "domain": 3,
+    "objective": "3.2",
+    "question": "A manager must model resource assignments and dependent task dates. Which tool category fits?",
+    "options": [
+      "A ticketing system without dependency scheduling",
+      "A document repository with version history",
+      "A spreadsheet used only to record actual expenses",
+      "Project scheduling software"
+    ],
+    "answer": 3,
+    "explanation": "Scheduling software models activities, resources, dependencies, and dates.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.2"
+    }
+  },
+  {
+    "id": "pk005-091",
+    "domain": 3,
+    "objective": "3.2",
+    "question": "A team must compare numerical expense estimates and calculate totals. Which productivity tool fits?",
+    "options": [
+      "A presentation application for executive summaries",
+      "Spreadsheet",
+      "A collaboration board used only to group ideas",
+      "A word processor with manually typed totals"
+    ],
+    "answer": 1,
+    "explanation": "Spreadsheets support structured numerical analysis and formulas.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.2"
+    }
+  },
+  {
+    "id": "pk005-092",
+    "domain": 3,
+    "objective": "3.3",
+    "question": "Most service failures come from two of eight defect categories. Which chart best prioritizes those categories?",
+    "options": [
+      "Scatter diagram",
+      "Run chart",
+      "Pareto chart",
+      "Histogram"
+    ],
+    "answer": 2,
+    "explanation": "Pareto charts order categories by frequency or impact to reveal the largest contributors.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.3"
+    }
+  },
+  {
+    "id": "pk005-093",
+    "domain": 3,
+    "objective": "3.3",
+    "question": "A team wants to see the frequency distribution of response times grouped into ranges. Which chart fits?",
+    "options": [
+      "Scatter diagram",
+      "Pareto chart",
+      "Run chart",
+      "Histogram"
+    ],
+    "answer": 3,
+    "explanation": "A histogram groups numerical observations into intervals and displays their frequencies.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.3"
+    }
+  },
+  {
+    "id": "pk005-094",
+    "domain": 3,
+    "objective": "3.3",
+    "question": "A manager plots weekly defect counts in chronological order to inspect trends. Which chart is this?",
+    "options": [
+      "Pareto chart",
+      "Histogram",
+      "Scatter diagram",
+      "Run chart"
+    ],
+    "answer": 3,
+    "explanation": "Run charts show observations over time; they do not require statistical control limits.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.3"
+    }
+  },
+  {
+    "id": "pk005-095",
+    "domain": 3,
+    "objective": "3.3",
+    "question": "A team tests whether more training hours are associated with fewer support incidents. Which chart fits?",
+    "options": [
+      "Scatter diagram",
+      "Pareto chart",
+      "Histogram",
+      "Control chart of one process measure"
+    ],
+    "answer": 0,
+    "explanation": "A scatter diagram plots paired observations to investigate a relationship between two variables.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.3"
+    }
+  },
+  {
+    "id": "pk005-096",
+    "domain": 3,
+    "objective": "3.3",
+    "question": "The team groups possible failure causes under people, process, equipment, and environment. Which tool is this?",
+    "options": [
+      "Decision tree",
+      "Pareto chart",
+      "Fishbone diagram",
+      "Scatter diagram"
+    ],
+    "answer": 2,
+    "explanation": "A fishbone diagram organizes possible causes of a problem to support root cause analysis.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.3"
+    }
+  },
+  {
+    "id": "pk005-097",
+    "domain": 3,
+    "objective": "3.3",
+    "question": "A process chart includes upper and lower statistical control limits. One point exceeds the upper limit. What should the team do?",
+    "options": [
+      "Attribute the point to common-cause variation without checking it",
+      "Investigate possible special-cause variation",
+      "Treat the point as normal because the average remains stable",
+      "Widen the control limits immediately to contain the observation"
+    ],
+    "answer": 1,
+    "explanation": "A point outside a control limit signals variation that warrants investigation.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.3"
+    }
+  },
+  {
+    "id": "pk005-098",
+    "domain": 3,
+    "objective": "3.3",
+    "question": "A sprint chart shows remaining story points falling from 50 to 15. Which chart most directly shows this?",
+    "options": [
+      "Burndown chart",
+      "Cumulative frequency histogram",
+      "Burnup chart",
+      "Velocity chart"
+    ],
+    "answer": 0,
+    "explanation": "Burndown charts show remaining work over time; less remaining work indicates progress.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.3"
+    }
+  },
+  {
+    "id": "pk005-099",
+    "domain": 3,
+    "objective": "3.3",
+    "question": "A team completed 18, 22, and 20 points in its last three sprints. Using their average, what is a reasonable initial forecast for the next similar sprint?",
+    "options": [
+      "20 points",
+      "18 points",
+      "22 points",
+      "60 points"
+    ],
+    "answer": 0,
+    "explanation": "Average velocity is (18 + 22 + 20) / 3 = 20 points. It is a planning estimate, not a guarantee.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "3.3"
+    }
+  },
+  {
+    "id": "pk005-100",
+    "domain": 4,
+    "objective": "4.1",
+    "question": "A hardware replacement will generate large amounts of electronic waste. What should the manager include?",
+    "options": [
+      "Select disposal based only on the lowest quoted transport cost",
+      "Responsible disposal and environmental impact planning",
+      "Treat disposal as outside the project because replacement is the main deliverable",
+      "Defer disposal requirements until the equipment has been discarded"
+    ],
+    "answer": 1,
+    "explanation": "ESG planning considers environmental effects and responsible handling of equipment waste.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "4.1"
+    }
+  },
+  {
+    "id": "pk005-101",
+    "domain": 4,
+    "objective": "4.1",
+    "question": "A proposed project conflicts with the company’s published sustainability commitments. What should the manager assess?",
+    "options": [
+      "Only the technical feasibility of the proposed design",
+      "Strategic alignment and brand impact",
+      "Only the short-term return on investment",
+      "Only the delivery schedule and resource availability"
+    ],
+    "answer": 1,
+    "explanation": "Projects should align with organizational mission, values, and ESG commitments.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "4.1"
+    }
+  },
+  {
+    "id": "pk005-102",
+    "domain": 4,
+    "objective": "4.1",
+    "question": "A vendor’s practices may harm the company’s reputation. Which project consideration is most directly affected?",
+    "options": [
+      "Technical performance against response-time targets",
+      "Brand value and ESG alignment",
+      "Schedule performance against the critical path",
+      "Resource utilization against the staffing plan"
+    ],
+    "answer": 1,
+    "explanation": "Vendor practices can create social and governance impacts that affect reputation and brand value.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "4.1"
+    }
+  },
+  {
+    "id": "pk005-103",
+    "domain": 4,
+    "objective": "4.2",
+    "question": "A vendor needs access to one test database. Which approach best applies least privilege?",
+    "options": [
+      "Grant the same role as the internal database administrator",
+      "Grant all database permissions until the contract ends",
+      "Grant read access to every environment for convenience",
+      "Grant only the required test permissions for the necessary period"
+    ],
+    "answer": 3,
+    "explanation": "Least privilege limits permissions to what the assigned work requires.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "4.2"
+    }
+  },
+  {
+    "id": "pk005-104",
+    "domain": 4,
+    "objective": "4.2",
+    "question": "A team protects account access with a password plus an authenticator approval. What control is this?",
+    "options": [
+      "Encryption in transit",
+      "Role-based access control",
+      "Single sign-on",
+      "Multifactor authentication"
+    ],
+    "answer": 3,
+    "explanation": "MFA requires factors from different categories, reducing reliance on a password alone.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "4.2"
+    }
+  },
+  {
+    "id": "pk005-105",
+    "domain": 4,
+    "objective": "4.2",
+    "question": "A secure project room admits staff only through badge-controlled doors. What type of control is this?",
+    "options": [
+      "Logical access control for application permissions",
+      "Operational screening of personnel",
+      "Physical security",
+      "Data classification and labeling"
+    ],
+    "answer": 2,
+    "explanation": "Facility access restrictions are physical security controls.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "4.2"
+    }
+  },
+  {
+    "id": "pk005-106",
+    "domain": 4,
+    "objective": "4.2",
+    "question": "Documents are labeled public, internal, and confidential, with different handling rules. What practice is this?",
+    "options": [
+      "Data classification",
+      "Data retention scheduling",
+      "Role-based access assignment",
+      "Data integrity verification"
+    ],
+    "answer": 0,
+    "explanation": "Classification assigns sensitivity categories that determine appropriate handling and protection.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "4.2"
+    }
+  },
+  {
+    "id": "pk005-107",
+    "domain": 4,
+    "objective": "4.2",
+    "question": "A contractor must pass required background screening before accessing a sensitive environment. Which concern does this address?",
+    "options": [
+      "Operational security",
+      "Physical perimeter security",
+      "Data encryption",
+      "Digital identity authentication"
+    ],
+    "answer": 0,
+    "explanation": "Background screening and clearance checks are operational security considerations.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "4.2"
+    }
+  },
+  {
+    "id": "pk005-108",
+    "domain": 4,
+    "objective": "4.2",
+    "question": "A project team wants to copy sensitive records to personal USB drives despite a company ban. What should the manager do?",
+    "options": [
+      "Follow approved security policy and arrange an authorized transfer method",
+      "Copy the data now and seek the required exception afterward",
+      "Let users self-certify that their personal drives are secure",
+      "Allow a one-time exception approved only by the project manager"
+    ],
+    "answer": 0,
+    "explanation": "Project delivery must respect organizational security restrictions and use approved methods.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "4.2"
+    }
+  },
+  {
+    "id": "pk005-109",
+    "domain": 4,
+    "objective": "4.3",
+    "question": "A migration includes names, addresses, and identifiers tied to individuals. What must the team recognize?",
+    "options": [
+      "The data includes personally identifiable information",
+      "The records become nonpersonal when moved to a cloud service",
+      "The records are nonpersonal because they describe customers rather than employees",
+      "The records are anonymous because they are stored in a project database"
+    ],
+    "answer": 0,
+    "explanation": "PII can identify a person and requires appropriate privacy and confidentiality controls.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "4.3"
+    }
+  },
+  {
+    "id": "pk005-110",
+    "domain": 4,
+    "objective": "4.3",
+    "question": "A project will move personal data to a new country. What should happen during planning?",
+    "options": [
+      "Treat encryption as a substitute for assessing transfer requirements",
+      "Assess applicable privacy, residency, and transfer requirements with qualified reviewers",
+      "Apply the destination vendor’s default policy without jurisdiction review",
+      "Copy the records first and review transfer obligations during closure"
+    ],
+    "answer": 1,
+    "explanation": "Cross-border projects need an assessment of applicable jurisdictional and organizational requirements before transfer.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "4.3"
+    }
+  },
+  {
+    "id": "pk005-111",
+    "domain": 4,
+    "objective": "4.3",
+    "question": "A healthcare integration will handle identifiable patient treatment records. Which concern requires special attention?",
+    "options": [
+      "General document version control without health-data safeguards",
+      "Only the commercial terms of the hosting agreement",
+      "Ordinary project status reporting without data sensitivity assessment",
+      "Health information confidentiality and applicable compliance requirements"
+    ],
+    "answer": 3,
+    "explanation": "Identifiable health data requires appropriate safeguards and review of applicable healthcare privacy obligations.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "4.3"
+    }
+  },
+  {
+    "id": "pk005-112",
+    "domain": 4,
+    "objective": "4.4",
+    "question": "A team rents virtual machines and manages their operating systems. Which cloud service model is this?",
+    "options": [
+      "Infrastructure as a service",
+      "A managed application subscription with no OS responsibility",
+      "Platform as a service",
+      "Software as a service"
+    ],
+    "answer": 0,
+    "explanation": "IaaS provides infrastructure resources while customers typically manage operating systems and applications.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "4.4"
+    }
+  },
+  {
+    "id": "pk005-113",
+    "domain": 4,
+    "objective": "4.4",
+    "question": "Developers deploy application code to a managed platform without managing its underlying operating system. Which model fits?",
+    "options": [
+      "Infrastructure as a service",
+      "Software as a service",
+      "On-premises hosting managed entirely by the project team",
+      "Platform as a service"
+    ],
+    "answer": 3,
+    "explanation": "PaaS supplies a managed application platform so developers can focus on their application.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "4.4"
+    }
+  },
+  {
+    "id": "pk005-114",
+    "domain": 4,
+    "objective": "4.4",
+    "question": "Employees use a vendor-hosted project management application through their browser. Which model fits?",
+    "options": [
+      "Infrastructure as a service for administering virtual machines",
+      "Software as a service",
+      "Platform as a service for building custom applications",
+      "A privately owned application running on local servers"
+    ],
+    "answer": 1,
+    "explanation": "SaaS delivers a ready-to-use application operated by the provider.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "4.4"
+    }
+  },
+  {
+    "id": "pk005-115",
+    "domain": 4,
+    "objective": "4.4",
+    "question": "An application separates its user interface, business logic, and database into distinct layers. Which architecture is this?",
+    "options": [
+      "Multitier architecture",
+      "A flat peer-to-peer architecture with no tier separation",
+      "A single-tier application combining all responsibilities",
+      "A network topology diagram without application layers"
+    ],
+    "answer": 0,
+    "explanation": "Multitier architecture separates presentation, application logic, and data responsibilities.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "4.4"
+    }
+  },
+  {
+    "id": "pk005-116",
+    "domain": 4,
+    "objective": "4.4",
+    "question": "A project integrates sales leads, customer contacts, and interactions. Which business system is the closest fit?",
+    "options": [
+      "A data warehouse used for consolidated historical analytics",
+      "Enterprise resource planning focused on finance and inventory",
+      "Customer relationship management",
+      "A ticketing system focused on internal service incidents"
+    ],
+    "answer": 2,
+    "explanation": "CRM systems manage customer relationships, sales interactions, and related contact information.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "4.4"
+    }
+  },
+  {
+    "id": "pk005-117",
+    "domain": 4,
+    "objective": "4.5",
+    "question": "A production network upgrade may interrupt users. What should be agreed before execution?",
+    "options": [
+      "An approved maintenance window, notifications, and rollback plan",
+      "Deployment approval based only on the supplier’s installation guide",
+      "A team work schedule without operational impact assessment",
+      "A maintenance window without restoration criteria or user notices"
+    ],
+    "answer": 0,
+    "explanation": "Operational change control prepares for disruption, informs affected users, and defines recovery steps.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "4.5"
+    }
+  },
+  {
+    "id": "pk005-118",
+    "domain": 4,
+    "objective": "4.5",
+    "question": "Post-deployment checks show critical failures that meet the agreed rollback trigger. What should the team do?",
+    "options": [
+      "Execute the approved rollback plan and communicate status",
+      "Obtain a new project baseline before restoring service",
+      "Accept the failures as residual risks without following the trigger",
+      "Continue troubleshooting in production beyond the approved failure threshold"
+    ],
+    "answer": 0,
+    "explanation": "Rollback restores the previous state when defined failure criteria are met; status must be communicated.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "4.5"
+    }
+  },
+  {
+    "id": "pk005-119",
+    "domain": 4,
+    "objective": "4.5",
+    "question": "A release succeeds in staging. What must still happen before production according to the change process?",
+    "options": [
+      "Required risk review, approvals, and release readiness checks",
+      "Wait for project closure before collecting production authorization",
+      "Promote the build based solely on the staging result",
+      "Treat user notification as a substitute for release approval"
+    ],
+    "answer": 0,
+    "explanation": "Successful staging tests support readiness but do not replace required production change approvals and checks.",
+    "source": {
+      "document": "CompTIA Project+ PK0-005 Survival Guide.md",
+      "section": "4.5"
+    }
+  },
+  {
+    "id": "pk005-120",
+    "domain": 4,
+    "objective": "4.5",
+    "question": "A team automatically builds and tests code whenever changes are merged. Which practice is demonstrated?",
+    "options": [
+      "Manual release approval after user acceptance testing",
+      "A scheduled production maintenance window",
+      "Continuous integration",
+      "Continuous deployment of every successful build to production"
+    ],
+    "answer": 2,
+    "explanation": "Continuous integration frequently combines code changes and uses automated builds and tests to detect integration problems.",
+    "source": {
+      "document": "Project+ PK0-005 Study Guide.md",
+      "section": "4.5"
+    }
+  }
+]
