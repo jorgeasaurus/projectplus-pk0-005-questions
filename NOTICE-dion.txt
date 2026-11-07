@@ -10,9 +10,13 @@ terms that cover questions.json and rizwan.json do not apply to dion.json.
 The supplied handoff says to keep this bank inside the company. The GitHub
 repository that holds this file is public.
 
+Eight reviewed questions were removed from the bank. dion.json keeps their
+ids and reasons only. Their stems, choices, answers, and explanations are
+not stored.
+
 One question (upstream id 5057d10a0fa3, coach id dion-5057d10a0fa3) depends on
 project-plus-burnup-chart.png. That image was not supplied and is not stored
-here. The question is under quarantined and is not part of questions.
+here. The question remains under quarantined and is not part of questions.
 
 Coach ids are "dion-" plus the upstream Dion id. Existing pk005- and rizwan-
 ids are unchanged. Progress for those existing ids should be left as it is.

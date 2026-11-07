@@ -34,7 +34,7 @@
   "duplicateCount": 0,
   "deduplicatedAgainstExistingCount": 0,
   "quarantinedQuestionCount": 1,
-  "importedQuestionCount": 173,
+  "importedQuestionCount": 165,
   "schema": {
     "id": "string",
     "domain": "int",
@@ -46,19 +46,24 @@
     "source": "object"
   },
   "idNamespace": "dion-",
-  "idNote": "Coach id is dion- plus the upstream Dion id from the supplied bank. Upstream ids remain in source.upstreamId. Existing pk005- and rizwan- ids are not used or modified.",
+  "idNote": "Coach id is dion- plus the upstream Dion id. Upstream ids remain in source.upstreamId. Existing pk005- and rizwan- ids are not used or modified. Eight reviewed ids were removed from this bank; they are listed in excluded with no question content.",
   "load": {
     "read": "questions",
-    "doNotRead": "quarantined",
+    "doNotRead": [
+      "excluded",
+      "quarantined"
+    ],
     "progressKey": "id",
     "existingBanksUntouched": [
       "questions.json",
       "rizwan.json"
-    ]
+    ],
+    "activeAdditions": 165,
+    "combinedWithExisting": 474
   },
   "coverage": {
-    "1.1": 9,
-    "1.2": 5,
+    "1.1": 8,
+    "1.2": 4,
     "1.3": 1,
     "1.4": 7,
     "1.5": 8,
@@ -66,90 +71,24 @@
     "1.7": 5,
     "1.8": 0,
     "1.9": 3,
-    "1.10": 6,
+    "1.10": 5,
     "1.11": 6,
     "2.1": 14,
     "2.2": 13,
     "2.3": 9,
     "2.4": 6,
-    "2.5": 9,
+    "2.5": 8,
     "3.1": 14,
     "3.2": 8,
-    "3.3": 7,
-    "4.1": 4,
-    "4.2": 11,
+    "3.3": 6,
+    "4.1": 2,
+    "4.2": 10,
     "4.3": 6,
-    "4.4": 7,
+    "4.4": 6,
     "4.5": 6
   },
   "coverageGaps": [
-    "1.8 has no question in the supplied attempts"
-  ],
-  "flags": [
-    {
-      "id": "dion-f218d8cee0fb",
-      "upstreamId": "f218d8cee0fb",
-      "severity": "substantive",
-      "code": "objective-tag",
-      "kept": true,
-      "detail": "Dion tagged this item OBJ 1.10, stored as objective 1.10. The stem asks for the purpose of gap analysis in project performance management. On the PK0-005 blueprint, performance management is 1.7. The supplied tag and explanation were left unchanged."
-    },
-    {
-      "id": "dion-27cbbb7d1a13",
-      "upstreamId": "27cbbb7d1a13",
-      "severity": "substantive",
-      "code": "esg-term",
-      "kept": true,
-      "detail": "The keyed choice is \"Governmental\". The explanation defines Governance as an ESG factor and then calls financial-report transparency a governmental factor. PK0-005 objective 4.1 uses Governance. Choice text, index, and explanation were left unchanged."
-    },
-    {
-      "id": "dion-4d98e61005fb",
-      "upstreamId": "4d98e61005fb",
-      "severity": "review",
-      "code": "esg-term",
-      "kept": true,
-      "detail": "The keyed answer is Social. A distractor is labeled \"Governmental\" rather than the blueprint term Governance. Wording was left unchanged."
-    },
-    {
-      "id": "dion-69c8955c9ed8",
-      "upstreamId": "69c8955c9ed8",
-      "severity": "substantive",
-      "code": "answer-support",
-      "kept": true,
-      "detail": "The keyed choice is \"All of these\", which includes generating a project closeout report. The explanation supports discussing accomplishments, failures, and challenges, and obtaining verbal approval and feedback. It does not mention the closeout report. The supplied key was left unchanged. The stem also overlaps rizwan-d2-085 (\"What is the primary purpose of a project closure meeting?\"), which has different options and a different keyed choice. Normalized content does not match, so both items are kept."
-    },
-    {
-      "id": "dion-72bf52dacb69",
-      "upstreamId": "72bf52dacb69",
-      "severity": "review",
-      "code": "classification",
-      "kept": true,
-      "detail": "The explanation classifies MDM as a physical security measure alongside facility access and removable-media locks, and keys background screening as the item that is not physical security. Text was left unchanged."
-    },
-    {
-      "id": "dion-6b42ddf650a9",
-      "upstreamId": "6b42ddf650a9",
-      "severity": "provenance",
-      "code": "objective-inferred",
-      "kept": true,
-      "detail": "Dion's saved page had no objective tag. Filed as 1.1 from the stem, objectiveSource inferred."
-    },
-    {
-      "id": "dion-292c31a36a32",
-      "upstreamId": "292c31a36a32",
-      "severity": "provenance",
-      "code": "objective-inferred",
-      "kept": true,
-      "detail": "Dion's saved page had no objective tag. Filed as 1.2 from the stem, objectiveSource inferred."
-    },
-    {
-      "id": "dion-a699e5f05737",
-      "upstreamId": "a699e5f05737",
-      "severity": "provenance",
-      "code": "objective-inferred",
-      "kept": true,
-      "detail": "Dion's saved page had no objective tag. Filed as 4.4 from the stem, objectiveSource inferred."
-    }
+    "1.8 has no active question in this bank"
   ],
   "dedupe": {
     "sourceItemsClaimed": 261,
@@ -300,28 +239,6 @@
       }
     },
     {
-      "id": "dion-6b42ddf650a9",
-      "domain": 1,
-      "objective": "1.1",
-      "question": "Which of the following are the people who will be impacted by a project?",
-      "options": [
-        "Stakeholders",
-        "Developers",
-        "Engineers",
-        "Customers"
-      ],
-      "answer": 0,
-      "explanation": "Stakeholders include any individuals or groups who are impacted by the project. It is important that they know what the project is attempting to do and its impacts. Clear communication with stakeholders and feedback from stakeholders help ensure that the final product meets their needs. Customers, developers, and engineers are all stakeholders because they are impacted by the project in some way; however, there are many other stakeholders.",
-      "source": {
-        "document": "Dion Training practice exam result pages",
-        "section": "1.1",
-        "author": "Dion Training",
-        "saved": "2026-11-05",
-        "upstreamId": "6b42ddf650a9",
-        "objectiveSource": "inferred"
-      }
-    },
-    {
       "id": "dion-d1561aa5ff59",
       "domain": 1,
       "objective": "1.1",
@@ -451,28 +368,6 @@
         "saved": "2026-11-05",
         "upstreamId": "16e100d5ea2d",
         "objectiveSource": "dion"
-      }
-    },
-    {
-      "id": "dion-292c31a36a32",
-      "domain": 1,
-      "objective": "1.2",
-      "question": "Which of the following statements accurately describes the differences between waterfall and agile teams in terms of team size and composition?",
-      "options": [
-        "Waterfall teams are small, but are cross-functional",
-        "Agile teams are typically larger than Waterfall teams, allowing for greater specialization and expertise",
-        "Agile teams are small and focused, while Waterfall teams can be any size",
-        "Agile teams are large so that they can be cross-functional"
-      ],
-      "answer": 2,
-      "explanation": "Agile teams are small by design, typically consisting of 3–10 members. This small size facilitates communication and collaboration. On the other hand, waterfall project teams can be any size.",
-      "source": {
-        "document": "Dion Training practice exam result pages",
-        "section": "1.2",
-        "author": "Dion Training",
-        "saved": "2026-11-05",
-        "upstreamId": "292c31a36a32",
-        "objectiveSource": "inferred"
       }
     },
     {
@@ -1264,28 +1159,6 @@
         "author": "Dion Training",
         "saved": "2026-11-05",
         "upstreamId": "483ec87fd7cf",
-        "objectiveSource": "dion"
-      }
-    },
-    {
-      "id": "dion-f218d8cee0fb",
-      "domain": 1,
-      "objective": "1.10",
-      "question": "What is the purpose of gap analysis in project performance management?",
-      "options": [
-        "To assess whether a project is on track, under budget, and ahead or behind schedule",
-        "To identify differences between expected and actual results and guide the development of solutions",
-        "To track the progress of a project's expenses over time",
-        "To address unforeseen risks or changes that may impact project scope, timeline, or budget"
-      ],
-      "answer": 1,
-      "explanation": "Gap analysis is a technique used to identify variances between expected and actual results, enabling the project manager to make informed decisions and improve the project's outcome.",
-      "source": {
-        "document": "Dion Training practice exam result pages",
-        "section": "1.10",
-        "author": "Dion Training",
-        "saved": "2026-11-05",
-        "upstreamId": "f218d8cee0fb",
         "objectiveSource": "dion"
       }
     },
@@ -2500,28 +2373,6 @@
       }
     },
     {
-      "id": "dion-69c8955c9ed8",
-      "domain": 2,
-      "objective": "2.5",
-      "question": "What is the purpose of the project closure meeting?",
-      "options": [
-        "To discuss the project's accomplishments, failures, and challenges",
-        "To generate a project closeout report and summarize performance data",
-        "To obtain verbal approval to close the project and gather feedback",
-        "All of these"
-      ],
-      "answer": 3,
-      "explanation": "The purpose of the project closure meeting is to obtain verbal approval to close the project by the end of the meeting and gather feedback. The meeting also focuses on discussing the project's accomplishments, failures, and challenges and serves as the last working session before closing the project.",
-      "source": {
-        "document": "Dion Training practice exam result pages",
-        "section": "2.5",
-        "author": "Dion Training",
-        "saved": "2026-11-05",
-        "upstreamId": "69c8955c9ed8",
-        "objectiveSource": "dion"
-      }
-    },
-    {
       "id": "dion-4e24c1b6b8ee",
       "domain": 2,
       "objective": "2.5",
@@ -3248,50 +3099,6 @@
       }
     },
     {
-      "id": "dion-4d98e61005fb",
-      "domain": 4,
-      "objective": "4.1",
-      "question": "Jonah is evaluating a project that will include members of management regularly meeting with people in the community and developing initiatives that will improve the overall well-being of the community. Which of the following ESG factors will be used to measure the value of this project?",
-      "options": [
-        "Environmental",
-        "Social",
-        "Governmental",
-        "Corporate identity"
-      ],
-      "answer": 1,
-      "explanation": "Environmental, Social, and Governance (ESG) factors are business considerations that aren't related to how well a company performs financially. Instead, they measure the social benefits and contributions the project makes to improve society as a whole. Environmental factors are measures of a company's benefits to the natural world. Social factors refers to how well a company treats its people, its stakeholders, and society in general. Governance factors address how the company is organized and meets the definitions of being a good citizen. Corporate identity refers to how the company is perceived by people. Meeting with the community to determine how better to contribute to the community is a way to benefit society, so it is a social factor.",
-      "source": {
-        "document": "Dion Training practice exam result pages",
-        "section": "4.1",
-        "author": "Dion Training",
-        "saved": "2026-11-05",
-        "upstreamId": "4d98e61005fb",
-        "objectiveSource": "dion"
-      }
-    },
-    {
-      "id": "dion-27cbbb7d1a13",
-      "domain": 4,
-      "objective": "4.1",
-      "question": "Sahra, an accountant with Dion Training, has suggested that the company take on a project to improve the transparency of its financial reports to shareholders. Which of the following ESG factors is Sahra promoting with this suggestion?",
-      "options": [
-        "Environmental",
-        "Social",
-        "Governmental",
-        "Corporate identity"
-      ],
-      "answer": 2,
-      "explanation": "Environmental, Social, and Governance (ESG) factors are business considerations that aren't related to how well a company performs financially. Instead, they measure the social benefits and contributions the project makes to improve society as a whole. Environmental factors are measures of a company's benefits to the natural world. Social factors refers to how well a company treats its people, its stakeholders, and society in general. Governance factors address how the company is organized and meets the definitions of being a good citizen. Corporate identity refers to how the company is perceived by people. Transparency is often part of regulations and laws. It also shows strong citizenship qualities, so the policy suggestion is a governmental factor.",
-      "source": {
-        "document": "Dion Training practice exam result pages",
-        "section": "4.1",
-        "author": "Dion Training",
-        "saved": "2026-11-05",
-        "upstreamId": "27cbbb7d1a13",
-        "objectiveSource": "dion"
-      }
-    },
-    {
       "id": "dion-7caff344b036",
       "domain": 4,
       "objective": "4.1",
@@ -3442,28 +3249,6 @@
         "author": "Dion Training",
         "saved": "2026-11-05",
         "upstreamId": "976e71bbdc9f",
-        "objectiveSource": "dion"
-      }
-    },
-    {
-      "id": "dion-72bf52dacb69",
-      "domain": 4,
-      "objective": "4.2",
-      "question": "Which of the following is NOT a part of physical security?",
-      "options": [
-        "Background screening",
-        "Removable media locks",
-        "Facility access",
-        "MDM"
-      ],
-      "answer": 0,
-      "explanation": "Background screening is an operational security measure. Facility access, removable media locks, and MDM (Mobile Device Management) are all physical security measures.",
-      "source": {
-        "document": "Dion Training practice exam result pages",
-        "section": "4.2",
-        "author": "Dion Training",
-        "saved": "2026-11-05",
-        "upstreamId": "72bf52dacb69",
         "objectiveSource": "dion"
       }
     },
@@ -3707,28 +3492,6 @@
         "saved": "2026-11-05",
         "upstreamId": "a5b198ee4f5d",
         "objectiveSource": "dion"
-      }
-    },
-    {
-      "id": "dion-a699e5f05737",
-      "domain": 4,
-      "objective": "4.4",
-      "question": "Fedson Foods is experiencing dramatic growth in sales. Their current system for tracking customer accounts is no longer enough. Since the company is going to be purchasing a new software system, they want one that will also allow them to gather and track feedback as well. Which of the following software solutions will best address all of the company's needs?",
-      "options": [
-        "ERP",
-        "CRM",
-        "CMS",
-        "EDMS"
-      ],
-      "answer": 1,
-      "explanation": "CRM (Customer Relationship Management) software help manage customer interactions. They allow companies to create and maintain relationships with customers to improve the company’s profits by increasing customer loyalty. They can help track customer transactions, feedback, and preferences to make the customer experience more personal. They also allow companies to gain data needed to improve marketing and products. EDMS (Electronic Document Management System) software, are also known as RMS (Record Management Systems) software. These types of software help with the creation, tracking, and sharing of information, but also allow companies to create and edit workflows to improve the efficiency of processes. CMS (Content Management System) software helps create content for websites and other media which can be quite complex. A good CMS provides a clear interface event when the background processes are quite complex. This allows companies to produce better content more quickly and users to more easily use the interfaces that are created. ERP (Enterprise Resource Planning) software helps manage operational workloads including accounting, supply chain activities, procurement processes, and resource management. ERP software helps companies efficiently acquire, manage, and consume resources. They help project managers by providing accurate and timely data for projects and by tracking finances, spending, and budgets.",
-      "source": {
-        "document": "Dion Training practice exam result pages",
-        "section": "4.4",
-        "author": "Dion Training",
-        "saved": "2026-11-05",
-        "upstreamId": "a699e5f05737",
-        "objectiveSource": "inferred"
       }
     },
     {
@@ -3983,7 +3746,7 @@
         "id": "dion-5057d10a0fa3",
         "upstreamId": "5057d10a0fa3",
         "enabled": false,
-        "reason": "The stem asks which visual is depicted and depends on project-plus-burnup-chart.png. That file was not attached and is not in this repository. The question is stored here so its id, answer, and explanation stay stable, and it is omitted from questions so a bank concatenator will not quiz an unseen chart.",
+        "reason": "The stem asks which visual is depicted and depends on project-plus-burnup-chart.png. That file was not attached and is not in this repository. Held out of questions so it is not quizzed.",
         "question": {
           "id": "dion-5057d10a0fa3",
           "domain": 3,
@@ -4009,5 +3772,57 @@
         }
       }
     ]
-  }
+  },
+  "activeQuestionCount": 165,
+  "excludedQuestionCount": 8,
+  "excluded": [
+    {
+      "id": "dion-f218d8cee0fb",
+      "upstreamId": "f218d8cee0fb",
+      "code": "objective-tag",
+      "reason": "Removed at review. Dion tagged objective 1.10; the item is performance-management content, which the PK0-005 blueprint places under 1.7. Not corrected in place."
+    },
+    {
+      "id": "dion-27cbbb7d1a13",
+      "upstreamId": "27cbbb7d1a13",
+      "code": "esg-term",
+      "reason": "Removed at review. The keyed choice uses Governmental, while objective 4.1 names Governance, and the explanation uses both. Not corrected in place."
+    },
+    {
+      "id": "dion-4d98e61005fb",
+      "upstreamId": "4d98e61005fb",
+      "code": "esg-term",
+      "reason": "Removed at review. A distractor is labeled Governmental rather than the blueprint term Governance. Not corrected in place."
+    },
+    {
+      "id": "dion-69c8955c9ed8",
+      "upstreamId": "69c8955c9ed8",
+      "code": "answer-support",
+      "reason": "Removed at review. The keyed all-of-these choice is broader than the supplied explanation, and the stem overlaps a different existing closure-meeting item. Not corrected in place."
+    },
+    {
+      "id": "dion-72bf52dacb69",
+      "upstreamId": "72bf52dacb69",
+      "code": "classification",
+      "reason": "Removed at review. The explanation classifies MDM as a physical security measure. Not corrected in place."
+    },
+    {
+      "id": "dion-6b42ddf650a9",
+      "upstreamId": "6b42ddf650a9",
+      "code": "objective-inferred",
+      "reason": "Removed at review. Dion's saved page had no objective tag; 1.1 was inferred. Not corrected in place."
+    },
+    {
+      "id": "dion-292c31a36a32",
+      "upstreamId": "292c31a36a32",
+      "code": "objective-inferred",
+      "reason": "Removed at review. Dion's saved page had no objective tag; 1.2 was inferred. Not corrected in place."
+    },
+    {
+      "id": "dion-a699e5f05737",
+      "upstreamId": "a699e5f05737",
+      "code": "objective-inferred",
+      "reason": "Removed at review. Dion's saved page had no objective tag; 4.4 was inferred. Not corrected in place."
+    }
+  ]
 }
