@@ -34,7 +34,7 @@
   "duplicateCount": 0,
   "deduplicatedAgainstExistingCount": 0,
   "quarantinedQuestionCount": 1,
-  "importedQuestionCount": 165,
+  "importedQuestionCount": 160,
   "schema": {
     "id": "string",
     "domain": "int",
@@ -46,7 +46,7 @@
     "source": "object"
   },
   "idNamespace": "dion-",
-  "idNote": "Coach id is dion- plus the upstream Dion id. Upstream ids remain in source.upstreamId. Existing pk005- and rizwan- ids are not used or modified. Eight reviewed ids were removed from this bank; they are listed in excluded with no question content.",
+  "idNote": "Coach id is dion- plus the upstream Dion id. Upstream ids remain in source.upstreamId. Existing pk005- and rizwan- ids are not used or modified. Thirteen reviewed ids were removed from this bank; they are listed in excluded with no question content.",
   "load": {
     "read": "questions",
     "doNotRead": [
@@ -58,8 +58,8 @@
       "questions.json",
       "rizwan.json"
     ],
-    "activeAdditions": 165,
-    "combinedWithExisting": 474
+    "activeAdditions": 160,
+    "combinedWithExisting": 469
   },
   "coverage": {
     "1.1": 8,
@@ -67,8 +67,8 @@
     "1.3": 1,
     "1.4": 7,
     "1.5": 8,
-    "1.6": 10,
-    "1.7": 5,
+    "1.6": 8,
+    "1.7": 4,
     "1.8": 0,
     "1.9": 3,
     "1.10": 5,
@@ -82,7 +82,7 @@
     "3.2": 8,
     "3.3": 6,
     "4.1": 2,
-    "4.2": 10,
+    "4.2": 8,
     "4.3": 6,
     "4.4": 6,
     "4.5": 6
@@ -855,28 +855,6 @@
       }
     },
     {
-      "id": "dion-5576e5cad8b3",
-      "domain": 1,
-      "objective": "1.6",
-      "question": "What is the purpose of having a contingency reserve for IT projects?",
-      "options": [
-        "It assesses whether a project is on track and within budget",
-        "Reserves allow for a method to monitor the project's scope",
-        "Contingencies keep the project's expenses aligned with the budget",
-        "In case there are changes or delays in the project"
-      ],
-      "answer": 3,
-      "explanation": "Contingency reserve utilization is the process of using set-aside resources in a project to handle unforeseen risks or changes that may affect the project scope, timeline, or budget. IT projects often face technical complexities and potential risks, and contingency reserves can be used to allocate additional resources, adjust the project scope or timeline, or find alternative solutions. Contingency reserves are separate from the project cost baseline and are used to address unexpected expenses without changing the baseline.",
-      "source": {
-        "document": "Dion Training practice exam result pages",
-        "section": "1.6",
-        "author": "Dion Training",
-        "saved": "2026-11-05",
-        "upstreamId": "5576e5cad8b3",
-        "objectiveSource": "dion"
-      }
-    },
-    {
       "id": "dion-c316f348e2bc",
       "domain": 1,
       "objective": "1.6",
@@ -917,28 +895,6 @@
         "author": "Dion Training",
         "saved": "2026-11-05",
         "upstreamId": "e24dacac680e",
-        "objectiveSource": "dion"
-      }
-    },
-    {
-      "id": "dion-1283024cdd86",
-      "domain": 1,
-      "objective": "1.6",
-      "question": "Which of the following is not part of EVM (Earned Value Management)?",
-      "options": [
-        "Performance gap analysis",
-        "Budgeted costs",
-        "Cost performance metrics",
-        "Contingency reserve utilization"
-      ],
-      "answer": 1,
-      "explanation": "Earned Value Management (EVM) is a monitoring method used to track project performance based on three key values that monitor schedule and cost performance. These values can be used to calculate variances and forecast the likely outcome of the project. The three values used in EVM are:\nPlanned Value (PV), which represents the target cost and schedule; Earned Value (EV), which represents the actual schedule; and Actual Cost (AC), which represents the actual cost.",
-      "source": {
-        "document": "Dion Training practice exam result pages",
-        "section": "1.6",
-        "author": "Dion Training",
-        "saved": "2026-11-05",
-        "upstreamId": "1283024cdd86",
         "objectiveSource": "dion"
       }
     },
@@ -1005,28 +961,6 @@
         "author": "Dion Training",
         "saved": "2026-11-05",
         "upstreamId": "a7af2b66e735",
-        "objectiveSource": "dion"
-      }
-    },
-    {
-      "id": "dion-6c3661524ce1",
-      "domain": 1,
-      "objective": "1.7",
-      "question": "Which of the following statements about schedule variance is true?",
-      "options": [
-        "A positive schedule variance means the project is ahead of schedule",
-        "The equation for schedule variance is the expected value plus the planned value",
-        "A schedule variance that is greater than zero means the project is behind schedule",
-        "The equation for schedule variance is the planned value minus the expected value"
-      ],
-      "answer": 0,
-      "explanation": "Schedule variance measures the difference between earned value and planned value. It compares the actual project progress against the expected progress. A positive schedule variance has a positive effect and means that the project delivers work faster than expected. The equation for schedule variance equals the expected value minus the planned value. When a schedule variance is greater than zero, it means it is ahead of schedule. When it equals zero, it means it's on pace with the estimates, and when the schedule variance is less than zero, it means the project is behind schedule.",
-      "source": {
-        "document": "Dion Training practice exam result pages",
-        "section": "1.7",
-        "author": "Dion Training",
-        "saved": "2026-11-05",
-        "upstreamId": "6c3661524ce1",
         "objectiveSource": "dion"
       }
     },
@@ -3187,50 +3121,6 @@
       }
     },
     {
-      "id": "dion-6e2707175d12",
-      "domain": 4,
-      "objective": "4.2",
-      "question": "Rebecca, a Project Manager at Dion Training, wants to set up MFA for all team members to prevent unauthorized access on a project that includes PII. Which of the following should she require as part of MFA?",
-      "options": [
-        "A badge and a token",
-        "Voice recognition and fingerprint scanning",
-        "A username, password, and security question",
-        "A password and a token"
-      ],
-      "answer": 3,
-      "explanation": "The project manager should require a password and a mobile device authentication app. MFA requires at least two forms of credentials from different categories. A password is something you know and a mobile device authentication app is something you have, so there are two categories of credentials. A badge and a token are both things you have, so this is only one category of credentials. Voice and fingerprints are both things you have, so this is only one category of credentials. A username, password, and security questions are all things you know, so this is only one category of credentials.",
-      "source": {
-        "document": "Dion Training practice exam result pages",
-        "section": "4.2",
-        "author": "Dion Training",
-        "saved": "2026-11-05",
-        "upstreamId": "6e2707175d12",
-        "objectiveSource": "dion"
-      }
-    },
-    {
-      "id": "dion-f90b832ad519",
-      "domain": 4,
-      "objective": "4.2",
-      "question": "Shekhar, a project manager at a hospital, is preparing her final report. She plans to include an appendix with data used in the analysis found in the report. Which of the following should she not include in the data?",
-      "options": [
-        "A list of insurance numbers of the patients in the analysis",
-        "The average age of patients included in the analysis",
-        "A list of the weights of patients included in the analysis",
-        "The percentage of patients who had high blood pressure"
-      ],
-      "answer": 0,
-      "explanation": "Insurance numbers of the patients is a common form of PHI (Personal Health Information) and could be used to identify individuals in the study, so she should not include this information. A list of weights for the patients would be okay in most cases as long as the patients' names or other identifying information is included. The average age of patients and the percentage of patients with high blood pressure are information derived from the data. They are okay to use since they don't link back to patients directly.",
-      "source": {
-        "document": "Dion Training practice exam result pages",
-        "section": "4.2",
-        "author": "Dion Training",
-        "saved": "2026-11-05",
-        "upstreamId": "f90b832ad519",
-        "objectiveSource": "dion"
-      }
-    },
-    {
       "id": "dion-976e71bbdc9f",
       "domain": 4,
       "objective": "4.2",
@@ -3773,8 +3663,8 @@
       }
     ]
   },
-  "activeQuestionCount": 165,
-  "excludedQuestionCount": 8,
+  "activeQuestionCount": 160,
+  "excludedQuestionCount": 13,
   "excluded": [
     {
       "id": "dion-f218d8cee0fb",
@@ -3823,6 +3713,36 @@
       "upstreamId": "a699e5f05737",
       "code": "objective-inferred",
       "reason": "Removed at review. Dion's saved page had no objective tag; 4.4 was inferred. Not corrected in place."
+    },
+    {
+      "id": "dion-5576e5cad8b3",
+      "upstreamId": "5576e5cad8b3",
+      "code": "baseline",
+      "reason": "Removed at review. The explanation places contingency reserves outside the cost baseline. Contingency reserves are inside the cost baseline; management reserves sit outside it. Not corrected in place."
+    },
+    {
+      "id": "dion-1283024cdd86",
+      "upstreamId": "1283024cdd86",
+      "code": "answer-key",
+      "reason": "Removed at review. The key treats budgeted costs as outside earned value management. Planned value and earned value are budgeted-cost measures; contingency reserve utilization is the choice that is not an EVM measure. Not corrected in place."
+    },
+    {
+      "id": "dion-6c3661524ce1",
+      "upstreamId": "6c3661524ce1",
+      "code": "formula-term",
+      "reason": "Removed at review. The explanation states schedule variance as expected value minus planned value. Schedule variance is earned value minus planned value. Not corrected in place."
+    },
+    {
+      "id": "dion-6e2707175d12",
+      "upstreamId": "6e2707175d12",
+      "code": "classification",
+      "reason": "Removed at review. The explanation calls voice and fingerprints possession factors. They are inherence factors, and another item in this bank classifies them that way. The keyed choice was not rewritten. Not corrected in place."
+    },
+    {
+      "id": "dion-f90b832ad519",
+      "upstreamId": "f90b832ad519",
+      "code": "privacy",
+      "reason": "Removed at review. The explanation says patient weights may be disclosed when names or other identifiers are included. Identified weights are health information and that condition reverses the privacy rule. Not corrected in place."
     }
   ]
 }
