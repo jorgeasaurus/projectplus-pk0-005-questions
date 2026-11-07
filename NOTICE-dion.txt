@@ -1,0 +1,18 @@
+Dion Training PK0-005 practice questions — provenance notice
+
+Question text and explanations in dion.json were supplied by the user from Dion
+Training practice exam result pages saved 5 Nov 2026 (attempts 5, 6, and 7).
+
+Those questions and explanations belong to Dion Training. This repository does
+not grant a license to copy, modify, or redistribute them. The CC BY-NC-SA 4.0
+terms that cover questions.json and rizwan.json do not apply to dion.json.
+
+The supplied handoff says to keep this bank inside the company. The GitHub
+repository that holds this file is public.
+
+One question (upstream id 5057d10a0fa3, coach id dion-5057d10a0fa3) depends on
+project-plus-burnup-chart.png. That image was not supplied and is not stored
+here. The question is under quarantined and is not part of questions.
+
+Coach ids are "dion-" plus the upstream Dion id. Existing pk005- and rizwan-
+ids are unchanged. Progress for those existing ids should be left as it is.
